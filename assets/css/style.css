@@ -538,4 +538,7 @@
   .timeline::after {
     bottom: 170px;
   }
+  .box_slider {
+    padding: 30px 32px;
+  }
 }
