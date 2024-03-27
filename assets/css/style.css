@@ -528,7 +528,7 @@
 
 @media (max-width:576px) {
   .content {
-    padding: 30px 10px 0px 40px;
+    padding: 30px 10px 0px 30px;
   }
 
   .padding_bottom {
@@ -541,4 +541,10 @@
   .box_slider {
     padding: 30px 32px;
   }
+  .timeline::after {
+    left: 40px;
+  }
+  .left::after, .right::after {
+    left: 8px;
+}
 }
