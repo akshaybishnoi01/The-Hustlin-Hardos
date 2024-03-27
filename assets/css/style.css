@@ -536,13 +536,17 @@
   .timeline::after {
     bottom: 170px;
   }
+
   .box_slider {
     padding: 30px 32px;
   }
+
   .timeline::after {
     left: 40px;
   }
-  .left::after, .right::after {
+
+  .left::after,
+  .right::after {
     left: 8px;
-}
+  }
 }
